@@ -39,7 +39,7 @@ An interactive Streamlit web application that visualizes shot locations from the
   - Goals highlighted in green
   - Missed shots shown as hollow circles
   - Shot size indicates attempt type or distance
-- **Real-time Data**: Based on actual Euro 2024 match statistics
+- **Real-time Data**: Based on actual Euro 2024 match statistics from StatsBomb
 
 ## 🛠️ Tech Stack
 
