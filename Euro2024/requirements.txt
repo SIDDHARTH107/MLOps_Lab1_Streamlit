@@ -1,5 +1,4 @@
 mplsoccer (matplotlib wrapper allows us to create football pitches, and different visuals related to soccer)
 streamlit
 pandas
-mplsoccer
 json
