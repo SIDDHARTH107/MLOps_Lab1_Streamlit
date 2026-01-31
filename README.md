@@ -1,4 +1,16 @@
-# Euro 2024 Shot Map 🎯⚽
+## 📂 Project Structure
+
+```
+MLOps_Lab1_Streamlit/
+├── Euro2024/
+│   ├── app.py                      # Main Streamlit application
+│   ├── euros_2024_shot_map.csv    # Euro 2024 shot data
+│   ├── requirements.txt            # Python dependencies
+│   └── file1.txt                   # Additional notes
+└── README.md                       # Project documentation
+```
+
+# Euro 2024 Shot Map
 
 An interactive web application built with Streamlit that visualizes shot locations from the UEFA Euro 2024 tournament. Filter by team or player to analyze shot patterns and goal conversions on an interactive football pitch.
 
@@ -65,19 +77,7 @@ streamlit run app.py
 4. **Access the app**
 Open your browser and navigate to `http://localhost:8501`
 
-## 📂 Project Structure
-
-```
-MLOps_Lab1_Streamlit/
-├── Euro2024/
-│   ├── app.py                      # Main Streamlit application
-│   ├── euros_2024_shot_map.csv    # Euro 2024 shot data
-│   ├── requirements.txt            # Python dependencies
-│   └── file1.txt                   # Additional notes
-└── README.md                       # Project documentation
-```
-
-## 📊 Data Source
+## Data Source
 
 The shot map data includes:
 - Shot coordinates (x, y positions on pitch)
@@ -87,7 +87,7 @@ The shot map data includes:
 
 *Data collected from Euro 2024 tournament matches*
 
-## 🚀 Usage
+## Usage
 
 1. **Select a Team**: Use the dropdown to choose from Euro 2024 participating teams
 2. **Filter by Player** (Optional): Narrow down to a specific player's shots
@@ -96,9 +96,9 @@ The shot map data includes:
    - Compare conversion rates
    - Study team tactics and player positioning
 
-## 🎓 Academic Context
+## Academic Context
 
-This project was developed as part of **MLOps Lab 1** coursework at Northeastern University, demonstrating:
+This project - lab was developed as part of **MLOps Lab 1** coursework at Northeastern University, demonstrating:
 - Data visualization techniques
 - Web application development with Streamlit
 - Cloud deployment workflows
@@ -124,40 +124,5 @@ The application is deployed on **Streamlit Cloud** with continuous deployment fr
 - **Main file**: `Euro2024/app.py`
 - **Python version**: 3.13.11
 - **Branch**: `main`
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/SIDDHARTH107/MLOps_Lab1_Streamlit/issues).
-
-## 👨‍💻 Author
-
-**Siddharth Hindurao**
-- GitHub: [@SIDDHARTH107](https://github.com/SIDDHARTH107)
-- University: Northeastern University
-- Program: Master's in Data Analytics Engineering
-
-## 📝 License
-
-This project is created for educational purposes as part of MLOps coursework.
-
-## 🙏 Acknowledgments
-
-- **mplsoccer** library for football pitch visualization tools
-- **Streamlit** for the intuitive web framework
-- UEFA Euro 2024 for providing the tournament data
-- Northeastern University MLOps course instructors
-
-## 📈 Future Enhancements
-
-- [ ] Add heatmap visualization for shot density
-- [ ] Include expected goals (xG) metrics
-- [ ] Compare multiple players/teams side-by-side
-- [ ] Add temporal analysis (shots over tournament progression)
-- [ ] Export visualization as images
-- [ ] Mobile-responsive design improvements
-
----
-
-**⭐ If you find this project useful, please consider giving it a star!**
 
 *Last Updated: January 2026*
