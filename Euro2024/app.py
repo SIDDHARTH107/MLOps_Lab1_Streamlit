@@ -7,7 +7,13 @@ st.title("Euro 2024 Shot Map")
 st.subheader("Filter to any team/player to see all of their shots taken!")
 
 # df = pd.read_csv("euros_2024_shot_map.csv")
-df = pd.read_csv(os.path.join(os.path.dirname(__file__), "euros_2024_shot_map.csv"))
+import os
+
+# Getting the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, "euros_2024_shot_map.csv")
+df = pd.read_csv(csv_path)
+
 df = df[df['type'] == 'Shot'].reset_index(drop=True)
 df['location'] = df['location'].apply(json.loads)
 
@@ -44,3 +50,4 @@ plot_shots(filtered_df, ax, pitch)
 
 
 st.pyplot(fig)
+
