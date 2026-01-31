@@ -12,7 +12,7 @@ MLOps_Lab1_Streamlit/
 
 # Euro 2024 Shot Map
 
-An interactive web application built with Streamlit that visualizes shot locations from the UEFA Euro 2024 tournament. Filter by team or player to analyze shot patterns and goal conversions on an interactive football pitch.
+An interactive Streamlit web application that visualizes shot locations from the UEFA Euro 2024 tournament. Filter by team or player to analyze shot patterns and goal conversions on an interactive football pitch.
 
 ## 🎥 Demo
 
@@ -23,12 +23,12 @@ An interactive web application built with Streamlit that visualizes shot locatio
 ## 📸 Screenshots
 
 ### Team View - Belgium's Shot Map
-![Belgium Shot Map](https://via.placeholder.com/800x400?text=Belgium+Shot+Map)
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/afc411d3-4164-4b7c-95e3-3adf42c85b91" />
 *Visualization of all shots taken by Belgium during Euro 2024*
 
-### Interactive Pitch Visualization
-![Pitch Visualization](https://via.placeholder.com/800x400?text=Interactive+Football+Pitch)
-*Goals marked in green, missed shots in hollow circles*
+### Player View - Ronaldo's Shot Map
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/63c42c68-a1ce-49ab-83f5-5e72c9136962" />
+*Visualization of all shots taken by Ronaldo during Euro 2024, with 1 shot converted to a goal from a penalty*
 
 ## ✨ Features
 
