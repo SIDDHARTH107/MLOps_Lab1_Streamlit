@@ -43,6 +43,7 @@ An interactive Streamlit web application that visualizes shot locations from the
 
 ## 🛠️ Tech Stack
 
+- **Platform**: Google's Antigravity IDE
 - **Frontend Framework**: [Streamlit](https://streamlit.io/)
 - **Data Processing**: Pandas
 - **Visualization**: 
