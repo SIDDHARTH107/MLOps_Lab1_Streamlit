@@ -98,7 +98,7 @@ The shot map data includes:
 
 ## Academic Context
 
-This project - lab was developed as part of **MLOps Lab 1** coursework at Northeastern University, demonstrating:
+This project - lab was developed as part of **IE7374 - MLOps Lab 1** coursework at Northeastern University, demonstrating:
 - Data visualization techniques
 - Web application development with Streamlit
 - Cloud deployment workflows
